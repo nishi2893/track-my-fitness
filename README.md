@@ -1,7 +1,7 @@
 # Track My Fitness
 
 
-This project is built using Angular 7 and Angular Material. The application is a single page application with all the data of the application stored in firebase and accessed using Angular Fire 2 as well as it is mobile responsive.
+This project is built using Angular 7 and Angular Material. The application is a single page application with all the data of the application stored in firebase and accessed using Angular Fire 2 as well as it is mobile responsive. State of the application is managed by using Redux.
 
 This application tracks the fitness of the user. Firstly, the user can select one of the many workouts provided by the application. Once the user starts with a particular workout, this application records the duration of the workout completed as well as records the status of the workout which means whether the user has completed or cancelled a given workout.
 
@@ -11,11 +11,11 @@ More functionalities like calculation of calories burned, heart rate, etc as wel
 
 ## What I used?
 
-- React 16 / Jsx pages
-- React Router
-- Axios
-- Webpack
-- Babel
+- Angular 7
+- Angular Material
+- Redux
+- Angular Fire 2
+- Flex Layout
 - Pure JavaScript
 - HTML5
 - CSS3 w/ Mobile First
@@ -23,4 +23,4 @@ More functionalities like calculation of calories burned, heart rate, etc as wel
 
 ## Live version is available here
 
-[Burger House Demo](https://nishi2893.github.io/burger-house)
+[Track My Fitness Demo](https://nishi2893.github.io/track-my-fitness/)
