@@ -1,27 +1,26 @@
-# TrackMyFitness
+# Track My Fitness
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
-## Development server
+This project is built using Angular 7 and Angular Material. The application is a single page application with all the data of the application stored in firebase and accessed using Angular Fire 2 as well as it is mobile responsive.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This application tracks the fitness of the user. Firstly, the user can select one of the many workouts provided by the application. Once the user starts with a particular workout, this application records the duration of the workout completed as well as records the status of the workout which means whether the user has completed or cancelled a given workout.
 
-## Code scaffolding
+The app has more functionalities like displaying all the past workouts carried out by the user with their respective duration and status. It even has the timer which will display the amount of workout completed in terms of percentage. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+More functionalities like calculation of calories burned, heart rate, etc as well as recommendation of a particular diet to the user based on their health conditions will be added in the project in future. 
 
-## Build
+## What I used?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- React 16 / Jsx pages
+- React Router
+- Axios
+- Webpack
+- Babel
+- Pure JavaScript
+- HTML5
+- CSS3 w/ Mobile First
+- FireBase for Database
 
-## Running unit tests
+## Live version is available here
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Burger House Demo](https://nishi2893.github.io/burger-house)
